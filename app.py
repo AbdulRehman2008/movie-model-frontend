@@ -3,7 +3,7 @@ import requests
 
 st.title("MNIST Digit Classifier")
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "model-backend.railway.internal"
 
 uploaded_file = st.file_uploader("Upload a digit image", type=["png", "jpg", "jpeg"])
 
